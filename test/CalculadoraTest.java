@@ -42,10 +42,10 @@ public class CalculadoraTest {
     @Test
     public void testSomar() {
         System.out.println("somar");
-        int n1 = 5;
+        int n1 = 6;
         int n2 = 5;
         Calculadora instance = new Calculadora();
-        double expResult = 10;
+        double expResult = 11;
         double result = instance.somar(n1, n2);
         assertEquals(expResult, result, 0.0);
         
